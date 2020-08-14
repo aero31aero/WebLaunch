@@ -4,22 +4,30 @@
 		<meta charset="UTF-8">
 		<title>WebLaunch</title>
 
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/Kindle.js"></script>	
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/logging.js"></script> 
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/eventing.js"></script> 
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/object.js"></script>
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/storage.js"></script>
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/applicationManager.js"></script> 
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/Kindle.js"></script>	
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/logging.js"></script> 
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/eventing.js"></script> 
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/object.js"></script>
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/storage.js"></script>
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/applicationManager.js"></script> 
 
 		<!-- For orientation -->
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/enums.js"></script>
-		<script type="text/javascript" src="/var/local/mesquite/shared/javascripts/device.js"></script>
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/enums.js"></script>
+		<script type="text/javascript" src="file:///var/local/mesquite/shared/javascripts/device.js"></script>
 		
-		<script type="text/javascript" src="pillowHelper.js"></script>
+		<script type="text/javascript" src="file://pillowHelper.js"></script>
 		<script type="text/javascript">
-			var settings = undefined;
+			var settings = { 
+			url: 'https://rohitt.dev/', 
+			title: 'Rohitt Home',
+			hideStatusbar: true,
+			enableWireless: true,
+			powerButtonClose: true,
+			enablePreventScreenSaver: false,
+			landscape: false
+		};
 		</script>
-		<script type="text/javascript" src="../settings.js"></script>
+		<!-- <script type="text/javascript" src="file://../settings.js"></script> -->
 		<script type="text/javascript">
 			//-----------------------------------------------------------------
 			// Register our handling functions 
